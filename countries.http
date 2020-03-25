@@ -1,0 +1,21 @@
+GET http://192.168.72.20:30001/actuator/health
+
+###
+
+GET http://192.168.72.20:30001/actuator/info
+
+###
+
+GET http://192.168.72.20:30001/actuator/metrics
+
+###
+
+GET http://192.168.72.20:30001/api/countries
+X-B3-TraceId: 0b1a74feee1f1365
+X-B3-SpanId: 9e0f79d69626a0a1
+
+###
+
+GET http://localhost:8080/api/countries
+
+###

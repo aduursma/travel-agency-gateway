@@ -1,0 +1,4 @@
+= Travel Agency Gateway
+
+== Introduction
+The *Travel Agency Gateway* is part of the _Microservices Playground_ project.
