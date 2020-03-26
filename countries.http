@@ -16,6 +16,11 @@ X-B3-SpanId: 9e0f79d69626a0a1
 
 ###
 
-GET http://localhost:8080/api/countries
+GET http://localhost:8090/actuator/health
+#Authorization: Basic b3BzX3VzZXI6cmFhZGplbm9vaXQ=
+
+###
+
+GET http://localhost:8090/api/countries
 
 ###
