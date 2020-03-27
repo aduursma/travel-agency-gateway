@@ -3,6 +3,7 @@ package nl.agility.travelagency.ui;
 import lombok.RequiredArgsConstructor;
 import nl.agility.travelagency.domain.Country;
 import nl.agility.travelagency.service.CountryService;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,7 +16,7 @@ public class CountryController {
 
     private final CountryService countryService;
 
-    @RequestMapping("/countries")
+    @GetMapping("/countries")
     public List<Country> retrieveCountries() {
         return this.countryService.retrieveCountries();
     }
