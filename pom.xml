@@ -6,17 +6,18 @@
 	<parent>
 		<groupId>nl.agility.maven</groupId>
 		<artifactId>parent-services-pom</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>1.0.0-790be97d</version>
 	</parent>
 
 	<groupId>nl.agility.services</groupId>
 	<artifactId>travel-agency-gateway</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0-${revision}</version>
 
 	<name>Travel Agency Gateway</name>
 	<description>Microservices Playground - Travel Agency Gateway</description>
 
 	<properties>
+		<revision>SNAPSHOT</revision>
 	</properties>
 
 	<dependencies>
